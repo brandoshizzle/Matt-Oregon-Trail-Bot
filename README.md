@@ -11,3 +11,4 @@ The bot simulates key strokes on your computer to input controls into the game. 
 - Matt alerts the players that the cooldown is done
 - Matt should start the 5 second collection when the first person starts typing after the cooldown
 - Players can type in 'hunt' and it starts hunt mode: all commands are entered with no democracy
+- Check if the input is a number, a word, or a letter. If they are word answers, maybe assume it's names and take first 4 instead of most popular?
