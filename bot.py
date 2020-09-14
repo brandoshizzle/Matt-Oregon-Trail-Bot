@@ -70,12 +70,12 @@ async def on_message(message):
 		if isnumeric(m_array[1]):
 			cooldown_time = int(m_array[1])
 			await message.channel.send(
-            	"Input time set to " + m_array[1] + "."
-        	)
+            			"Input time set to " + m_array[1] + "."
+        		)
 		else:
 			await message.channel.send(
-            	"Woah there, I don't understand. Set input time by typing 'matt input 20'"
-        	)
+            			"Woah there, I don't understand. Set input time by typing 'matt input 20'"
+        		)
 		
 
 
@@ -83,8 +83,8 @@ async def process_input():
 	await client.wait_until_ready()
 	if game_started:
 		await message.channel.send(
-        	"What do you want to do travellers?"
-        )
+        		"What do you want to do travellers?"
+        	)
 		chosen_input = ""
 		await asyncio.sleep(input_time)
 
