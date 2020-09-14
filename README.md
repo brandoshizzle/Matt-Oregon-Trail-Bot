@@ -1,2 +1,2 @@
-# Matt-Oregon-Trail-Bot-
+# Matt (Oregon Trail Bot)
 Don't die of dysentry
